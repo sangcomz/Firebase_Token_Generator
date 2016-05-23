@@ -5,7 +5,7 @@ var firebase = require("firebase");
 var user = "0";
 
 firebase.initializeApp({
-  serviceAccount: "serviceAccountCredentials.json",
+  serviceAccount: “your_json.json",
   databaseURL: "https://databaseName.firebaseio.com"
 });
 
